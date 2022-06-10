@@ -27,7 +27,7 @@ public class _12table {
         //using while loop
         int sum1;
         int i=1;
-        System.out.println("-----------------");
+        System.out.println("------------------");
         while(i<=10)
         {
             sum1=num*i++;

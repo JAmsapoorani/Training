@@ -14,7 +14,7 @@ public class forloop {
         {
             System.out.println("i="+(i++));
         }
-        System.out.println("------------");
+        System.out.println("-------------");
 
         for(i=0;i<2;System.out.println("i="+(i++)))
         {

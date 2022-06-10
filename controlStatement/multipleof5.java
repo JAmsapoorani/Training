@@ -31,7 +31,7 @@ public class multipleof5 {
         }
         if(flag)
         {
-            System.out.println(num+" is multiple by 5");
+            System.out.println(num+" is multiple by 5 ");
         }
         else
         {
