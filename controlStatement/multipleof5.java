@@ -7,12 +7,19 @@ Print the multiples of 5 starting from 200 to 5 with following restrictions:
 public class multipleof5 {
     public static void main(String[] args)
     {
-        for(int i=200;i>=5;i--)
+        System.out.println("200 to 5 multiple by 5 number are:");
+        for(int i=200;i>=5;i-- )
         {
             if(i%5==0)
             {
                 System.out.print(i+" ");
             }
+        }
+
+        System.out.println("\n 200 to 5 multiple by 5 number are:");
+        for(int i=200;i>=5;i=i-5)
+        {
+            System.out.print(i+" ");
         }
         System.out.println();
         int num=7,i=1,mul=5;
