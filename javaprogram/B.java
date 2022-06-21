@@ -6,7 +6,7 @@ public class B extends A{
         A a=new A();
        // a.display();
         B b=new B();
-        b.display();
+       // b.display();
         A a1=new B();
         //a1.display();
     }
