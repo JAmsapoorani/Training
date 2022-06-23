@@ -5,7 +5,7 @@ import java.util.TreeSet;
 public class TreeSetprogram {
     public static void main(String[] args)
     {
-        TreeSet s=new TreeSet();
+        TreeSet s=new TreeSet(new Comparatorpro());
         //s.add(null);
         s.add('A');
         s.add('a');
